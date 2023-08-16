@@ -22,6 +22,9 @@ Dependencies to be installed for the paper code:
 In the attached notebooks, one for each experiment run, since it clones a specific Github branch created for each test, we have set everything up to run the code provided by the paper in its original form (entitled Stargan) and with the modifications made by us. 
 
 StarGan.ipynb -> original paper code we used to replicate their results
+
 leakyReLU__StarGan.ipynb -> experiment where we change hyperparameters of leakyRELU to 0.1 from 0.2
+
 ELU__StarGan.ipynb -> Changing the non-linear activation function from leakyReLU to ELU with the default hyperparameter value of 1.0.
+
 ELU0_5__StarGan.ipynb -> Changing the non-linear activation function from leakyReLU to ELU with the hyperparameter value of 0.5
